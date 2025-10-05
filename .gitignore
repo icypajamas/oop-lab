@@ -1,0 +1,4 @@
+# Exclude Class Files
+*.class
+
+*.nohup.out

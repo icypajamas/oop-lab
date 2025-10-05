@@ -51,8 +51,8 @@ class Address {
 }
 
 class Person {
-    protected String name;
-    protected Address Ad;
+    private String name;
+    private Address Ad;
 
     public Person() {
         name = "";
