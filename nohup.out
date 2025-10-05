@@ -1,5 +1,0 @@
-Gtk-Message: 15:30:25.819: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 15:30:25.819: Failed to load module "window-decorations-gtk-module"
-mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
-mesa: for the --global-isel-abort option: may only occur zero or one times!
-mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
