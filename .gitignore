@@ -1,4 +1,4 @@
 # Exclude Class Files
 *.class
-
-*.nohup.out
+# Exclude Linux nohup.out
+.nohup.out
