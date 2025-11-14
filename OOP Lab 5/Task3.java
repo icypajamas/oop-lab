@@ -52,7 +52,8 @@ class Line {
 
     public double findLength() {
         
-        return (Math.sqrt((Math.pow(endPoint.getX() - startPoint.getX(), 2)) + (Math.pow(endPoint.getY() - startPoint.getY(), 2))));
+        return (Math.sqrt((Math.pow(endPoint.getX() - startPoint.getX(), 2)) + (Math.pow(endPoint.getY() - 
+        startPoint.getY(), 2))));
     }
 }
 

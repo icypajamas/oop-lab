@@ -110,8 +110,6 @@ class PizzaOrder {
 
 }
 
-
-
 public class Task4 {
     public static void main(String[] args) {
         Pizza hotPizza = new Pizza("small", 5, 3, 6);

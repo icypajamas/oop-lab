@@ -93,5 +93,6 @@ public class Task1 {
         Address a1 = new Address("Paris", 20, 30);
         Person s1 = new Person("John", a1);
         System.out.println(s1.getAd().getCity());
+        s1.display();
     }   
 }

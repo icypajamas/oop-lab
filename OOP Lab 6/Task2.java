@@ -107,7 +107,9 @@ public class Task2 {
         book1.setTitle(bookTitle);
         book1.setPrice(bookPrice);
         book1.setPages(bookPages);
+
         scan.nextLine();
+        
         System.out.print("Enter Title of Tape: ");
         String tapeTitle = scan.nextLine();
         System.out.print("Enter Price of Tape: ");

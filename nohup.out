@@ -1,7 +1,0 @@
-Gtk-Message: 15:30:25.819: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 15:30:25.819: Failed to load module "window-decorations-gtk-module"
-mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
-mesa: for the --global-isel-abort option: may only occur zero or one times!
-mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
-[8936:9119:1006/020823.374331:FATAL:bus.cc(1247)] D-Bus connection was disconnected. Aborting.
-[8936:9117:1006/020823.374449:FATAL:bus.cc(1247)] D-Bus connection was disconnected. Aborting.

@@ -1,5 +1,3 @@
-import javax.security.auth.Subject;
-
 class Person {
     String name;
     String address;
