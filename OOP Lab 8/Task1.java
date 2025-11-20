@@ -75,9 +75,7 @@ abstract class Package {
 
     }
 
-    public double calculateCost() {
-        return costPerOunce * weight;
-    }
+    public abstract double calculateCost();
 
     @Override
     public String toString() {
@@ -110,6 +108,12 @@ class OvernightPackage extends Package {
         return (additionalFee + super.calculateCost());
     }
 
+    @Override
+    public String toString() {
+        return "{" +
+                " additionalFee='" + getAdditionalFee() + "'" +
+                "}";
+    }
 }
 
 class TwoDayPackage extends Package {
@@ -128,12 +132,19 @@ class TwoDayPackage extends Package {
     public double calculateCost() {
         return (flatFee + super.calculateCost());
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                " flatFee='" + getFlatFee() + "'" +
+                "}";
+    }
 }
 
 public class Task1 {
     public static void main(String[] args) {
-        Package p1 = new OvernightPackage("Las Vegas", "Charlie Kirk", "Washington D.C", "Donald Trump", 2500, 10,200);
-        Package p2 = new TwoDayPackage("Tahiti", "Dutch", "San Denis", "Milton", 30.25, 3,80);
+        Package p1 = new OvernightPackage("Las Vegas", "Charlie Kirk", "Washington D.C", "Donald Trump", 2500, 10, 200);
+        Package p2 = new TwoDayPackage("Tahiti", "Dutch", "San Denis", "Milton", 30.25, 3, 80);
         System.out.println(p1.calculateCost());
         System.out.println(p2.calculateCost());
     }
